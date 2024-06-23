@@ -1,60 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
-.heading{
-    background-color: black;
-    color: white;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
+.heading {
+  background-color: black;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
 }
-table{
-    border: 2px solid black;
-    margin-top: 1rem;
-   
-    height: 200px;
-    
+table {
+  border: 2px solid black;
+  margin-top: 1rem;
+
+  height: 200px;
 }
-tr{
-    border: 2px solid black;
+tr {
+  border: 2px solid black;
 }
-td{
-    border: 2px solid black;
-    height: 100px;
+td {
+  border: 2px solid black;
+  height: 100px;
 }
-th{
-    border: 2px solid black;
-    font-size: 50px;
-    width: 400px;
-    
+th {
+  border: 2px solid black;
+  font-size: 50px;
+  width: 400px;
 }
-.input{
-    width: 400px;
-    height: 100px;
-    font-size: 25px;
+.input {
+  width: 400px;
+  height: 100px;
+  font-size: 25px;
 }
 
-button{
-    font-size: 30px;
-    border-radius: 0.5rem;
-    color: red;
+button {
+  font-size: 30px;
+  border-radius: 0.5rem;
+  color: red;
 }
-#button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.representation{
-
-   
-    width: 99%;
-    height: 40vh;
-    margin-left:0.4rem;
-    border: 2px solid black;
-    border-radius: 1rem;
-
+.representation {
+  width: 99%;
+  height: 40vh;
+  margin-left: 0.4rem;
+  border: 2px solid black;
+  border-radius: 1rem;
 }
