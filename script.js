@@ -8,7 +8,7 @@ let handleClick = () => {
   let span1 = document.createElement("span");
   span.innerHTML = names.value;
   span1.innerHTML = date.value;
-  div.append(span, span1);
+  div.append("Task Name : ", span, "Date : ", span1);
   represent.appendChild(div);
 };
 submitButton.addEventListener("click", handleClick);
