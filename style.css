@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  cursor: pointer;
 }
 .heading {
   background-color: black;
@@ -57,5 +56,4 @@ button {
   height: 40vh;
   margin-left: 0.4rem;
   border: 2px solid black;
-  border-radius: 1rem;
 }
