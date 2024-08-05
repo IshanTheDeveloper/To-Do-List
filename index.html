@@ -7,35 +7,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="heading">To-Do-List</div>
-    <h1>Create items for To-do List</h1>
-    <main>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Date</th>
-          <th>Save Here</th>
-        </tr>
-        <tr>
-          <td>
-            <input
-              type="text"
-              id="name"
-              placeholder="Enter your task name here.."
-            />
-          </td>
-          <td>
-            <input type="date" id="date" />
-          </td>
-          <td id="submit"><button>Click Here</button></td>
-        </tr>
-      </table>
-      <br />
+    <div class="heading">
+      <p id="main-heading">Star Rating</p>
+      <p id="images">
+        <a href="https://github.com/IshanTheDeveloper" target="_blank">
+          <img src="github.png" alt="" id="img1" />
+        </a>
+        <a href="www.linkedin.com/in/ishan-jaiswal-6146202b6" target="_blank">
+          <img src="linkedln.png" alt="" id="img2" />
+        </a>
+      </p>
+    </div>
+    <div class="container">
+      <div class="main-container">
+        <div class="name">
+          <p>Name :</p>
+          <input type="text" placeholder="Enter the Task" id="name" />
+        </div>
+        <div class="date">
+          <p>Dates :</p>
+          <input type="datetime-local" name="" id="date" />
+        </div>
+        <div class="bttn">
+          <button class="buttons" id="submit">Submit</button>
+          <button class="buttons" id="reset">Reset</button>
+        </div>
+        <div class="result"></div>
+      </div>
+    </div>
 
-      <h1>Represent To-do List</h1>
-      <br />
-      <div class="representation"></div>
-    </main>
     <script src="script.js"></script>
   </body>
 </html>
